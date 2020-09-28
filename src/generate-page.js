@@ -1,3 +1,4 @@
+// An array to hold all of the badge information
 const licenseArr = [
     {
         name: 'GNU AGPLv3',
@@ -35,10 +36,10 @@ const licenseArr = [
         url: 'http://unlicense.org/'
     }
 ]
-
+// variables that change based on what is passed to checkArray
 let badge = "";
 let url = "";
-
+//A function to pull the data that corresponds with the license selected
 const checkArray = (array, data) => {
     for (var i = 0; i < array.length; i++) {
         if (array[i].name === data) {
@@ -49,6 +50,7 @@ const checkArray = (array, data) => {
     }
 }
 
+//Writes all the markdown text that is written to a file
 const generatePage = pageData => {
 checkArray(licenseArr, pageData.license)
 

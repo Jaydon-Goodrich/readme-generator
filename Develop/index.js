@@ -1,3 +1,4 @@
+// includes for this project
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generatePage = require('../src/generate-page');
