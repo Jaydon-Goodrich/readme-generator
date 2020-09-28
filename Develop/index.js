@@ -1,4 +1,7 @@
+// includes for this project
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generatePage = require('../src/generate-page');
 
 
 // array of questions for user
@@ -37,7 +40,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license is most suitable for your project?',
-        choices: ['GNU AGPLv3', 'GNU GRLv3', 'GNU LGPLv3', 'Mozilla Public', 'Apache', 'MIT', 'Boost Software', 'The Unlicense']
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'MPL', 'Apache', 'MIT', 'The Unlicense']
     },
     {
         type: 'input',
@@ -57,17 +60,26 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileContent) {
+    fs.writeFile('../dist/README.md', fileContent, err => {
+        if(err) throw (err);
+    })
 }
+const promptQuestions = () => {
+    return inquirer.prompt(questions);
+};
 
-// function to initialize program
+//function to initialize program
 function init() {
-
+    promptQuestions()
+    .then(pageData => {
+        return generatePage(pageData);
+    })
+    .then(fileData => {
+        writeToFile(fileData);
+        console.log("File written successfully!");
+    })
 }
 
-// function call to initialize program
+//function call to initialize program
 init();
-
-
-inquirer
-    .prompt(questions)
