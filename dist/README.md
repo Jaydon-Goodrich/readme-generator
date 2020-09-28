@@ -40,12 +40,12 @@ Code released under the [The Unlicense License](http://unlicense.org/)
 ## Questions
 For further questions I can be reached at:
 
-GitHub:[jaydon-goodrich](https://github.com/jaydon-goodrich)
+GitHub:[Jaydon-Goodrich](https://github.com/Jaydon-Goodrich)
 
-Email: jaydongoodrich@gmail.com
+Email: Jaydongoodrich@gmail.com
 
 Further Instructions: 
 
-no further questions
+None
     
     

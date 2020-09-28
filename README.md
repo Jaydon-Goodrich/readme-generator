@@ -57,5 +57,9 @@ Facebook: Jaydon-Goodrich
 
 LinkedIn: Jaydon-Goodrich
     
-    
+## Reference
+
+[Link to Youtube showing this project](https://youtu.be/mXaLOj4WuHU)
+
+![](src/readmeGen.png)
 
