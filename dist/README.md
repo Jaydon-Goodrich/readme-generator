@@ -1,11 +1,11 @@
 
-# My Project
+# Professional README Generator
 
 ## Description
 
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-This is a projecy with a descriptuon 
+A professional README Generator. This application uses ES6 JavaScript as well as nodeJs to generate a professional looking README.md file that can go along with any project. The app uses inquirer and a series of questions that will prompt the user for information about their project.
 
 ## Table of Contents
 
@@ -17,35 +17,35 @@ This is a projecy with a descriptuon
 
 ## Installation
 
-asfsdfsda
+Clone the README generator code, Make sure nodeJS is installed on your computer, Open the file and run npm install to make sure all the dependencies are installed, Make sure you are on the same level as index.js and run node index.js
 
 ## Usage 
 
-dsfsdfsdf
+Make sure you are on the same level as index.js and run node index.js, Answer the series of questions, Open the README file that was created in the dist folder to view your newly generated file
 
 ## Contributing
 
-sdfsdaf
+All the code for this project was written by Jaydon Goodrich
 
 ## Tests
 
-dsafsdf
+node index.js
 
 ## License
 
-Code released under the [GNU LGPLv3 License](https://google.com)
+Code released under the [The Unlicense License](http://unlicense.org/)
 
 ****
 
 ## Questions
 For further questions I can be reached at:
 
-GitHub:[sdafadsf](https://github.com/sdafadsf)
+GitHub:[jaydon-goodrich](https://github.com/jaydon-goodrich)
 
-Email: sadfsadf
+Email: jaydongoodrich@gmail.com
 
 Further Instructions: 
 
-sadfasdf
+no further questions
     
     

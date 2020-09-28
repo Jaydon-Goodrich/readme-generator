@@ -87,7 +87,7 @@ ${pageData.tests}
 
 ## License
 
-Code released under the [${pageData.license} License](https://google.com)
+Code released under the [${pageData.license} License](${url})
 
 ****
 
